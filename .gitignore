@@ -6,6 +6,9 @@ node_modules/
 build/
 dist/
 
+# Ignorar PDF del CV
+Cristian Krahulik - Curriculim Vitae.pdf
+
 # Variables de entorno (si las tenés)
 .env
 
