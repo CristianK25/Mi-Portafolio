@@ -49,10 +49,9 @@ export const GradleIcon = ({ className }: { className?: string }) => (
 
 export const SQLIcon = ({ className }: { className?: string }) => (
   <svg className={className} viewBox="0 0 24 24" fill="currentColor">
-    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-    <rect x="4" y="4" width="16" height="3" rx="1"/>
-    <rect x="4" y="8.5" width="16" height="3" rx="1"/>
-    <rect x="4" y="13" width="16" height="3" rx="1"/>
-    <rect x="4" y="17.5" width="16" height="3" rx="1"/>
+    <path d="M12 3C7.58 3 4 4.79 4 7v10c0 2.21 3.58 4 8 4s8-1.79 8-4V7c0-2.21-3.58-4-8-4z"/>
+    <ellipse cx="12" cy="7" rx="8" ry="3"/>
+    <path d="M4 12c0 2.21 3.58 4 8 4s8-1.79 8-4"/>
+    <path d="M4 16c0 2.21 3.58 4 8 4s8-1.79 8-4"/>
   </svg>
 );

@@ -8,7 +8,7 @@ import { ContactSection } from "./components/ContactSection";
 
 export default function App() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen dark">
       <Navigation />
       <main>
         <HeroSection />
@@ -20,7 +20,7 @@ export default function App() {
       </main>
       
       {/* Footer */}
-      <footer className="py-8 px-6 bg-gray-900 text-white">
+      <footer className="py-8 px-6 bg-gray-950 border-t border-gray-800 text-white">
         <div className="container mx-auto text-center">
           <p className="text-gray-400">
             © 2025 Cristian Krahulik. Desarrollado con React y Tailwind CSS.

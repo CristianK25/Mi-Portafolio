@@ -11,7 +11,7 @@ export function HeroSection() {
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-gray-900 dark:via-blue-900/20 dark:to-purple-900/20" />
+      <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-blue-900/20" />
       
       {/* Background image with overlay */}
       <div className="absolute inset-0 opacity-5">
@@ -39,9 +39,9 @@ export function HeroSection() {
             transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
             className="mb-8"
           >
-            <p className="text-xl text-muted-foreground mb-4">Estudiante de Informática</p>
+            <p className="text-xl text-muted-foreground mb-4">Estudiante de Tecnicatura en Programación</p>
             <p className="text-muted-foreground max-w-3xl mx-auto">
-              Apasionado por la informática y la programación. Soy ordenado, racional y empático, con interés en aprender de forma constante y proactiva.
+              Apasionado por la programación y el desarrollo de software. Soy ordenado, racional y empático, con interés en aprender de forma constante y proactiva.
             </p>
           </motion.div>
           
@@ -53,7 +53,7 @@ export function HeroSection() {
             <Button 
               onClick={scrollToContact}
               size="lg"
-              className="shadow-2xl hover:shadow-3xl hover:shadow-purple-500/30 bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 transition-all duration-300 hover:scale-110 border-0"
+              className="shadow-2xl hover:shadow-3xl hover:shadow-blue-400/30 bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-400 hover:to-blue-500 transition-all duration-300 hover:scale-110 border-0 text-gray-900"
             >
               Contactar
             </Button>

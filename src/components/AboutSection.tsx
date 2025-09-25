@@ -5,15 +5,15 @@ export function AboutSection() {
   return (
     <section id="about" className="py-20 px-6 relative overflow-hidden">
       {/* Background with space-like effect */}
-      <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-cyan-900/30 to-slate-900" />
-      <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-cyan-500/5 to-blue-500/10" />
+      <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-blue-900/30 to-gray-900" />
+      <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-blue-500/5 to-indigo-500/10" />
       
       {/* Animated particles effect */}
       <div className="absolute inset-0">
-        {[...Array(20)].map((_, i) => (
+        {[...Array(16)].map((_, i) => (
           <motion.div
             key={i}
-            className="absolute w-1 h-1 bg-cyan-400/30 rounded-full"
+            className="absolute w-1 h-1 bg-blue-400/30 rounded-full"
             style={{
               left: `${Math.random() * 100}%`,
               top: `${Math.random() * 100}%`,
